@@ -1,0 +1,91 @@
+.upHeader{
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.bottomHeader > div{
+    display: flex;
+}
+.bottomHeader {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomHeader p{
+    margin-right: 20px;
+    transition: color 0.25s ease 0s, padding 0.25s ease 0s;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.imageHeader{
+    display: flex;
+    align-items: center;
+}
+
+.imageHeader img{
+    margin-right: 40px;
+}
+
+.imageHeader > div{
+    margin-right: 40px;
+}
+
+.coins{
+    display: flex;
+    text-align: center;
+    width: 14%;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    white-space: nowrap;
+    transition: color 150ms ease 0s;
+}
+
+
+.coins button{
+    height: 32px;
+    padding: 8px 16px;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: rgb(243, 243, 247);
+    color: rgb(92, 99, 112);
+    outline: none;
+    border: none;
+    border-radius: 9999px;
+}
+
+.phone{
+    color: rgb(153, 153, 153);
+    font-size: 15px;
+    line-height: 1;
+}
+header p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.minutes{
+    font-size: 15px;
+}
+
+.bottomHeader p{
+    font-weight: 500;
+    padding: 22px 0px;
+    color: black;
+    font-size: 14px;
+    line-height: 1;
+    transition: color 0.25s ease 0s, padding 0.25s ease 0s;
+}
